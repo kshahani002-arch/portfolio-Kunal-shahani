@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunal Shahani | Strategic Marketing & Communications</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        darkBg: '#161618',
+                        cardBg: '#222226',
+                        accent: '#D96B43',
+                        accentHover: '#c15933',
+                        textMain: '#F4F1EA',
+                        textMuted: '#9BA1A6'
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #161618;
+            color: #F4F1EA;
+        }
+        .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+    </style>
+</head>
+<body class="bg-darkBg text-textMain antialiased selection:bg-accent selection:text-white">
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-darkBg/90 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="text-xl font-serif font-bold tracking-tight text-white flex items-center gap-2">
+                Kunal Shahani <span class="text-accent text-sm font-sans font-medium px-2 py-0.5 rounded-full bg-accent/10 border border-accent/20">Brand & Comms</span>
+            </a>
+            <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-textMuted">
+                <a href="#about" class="hover:text-white transition-colors">Profile</a>
+                <a href="#experience" class="hover:text-white transition-colors">Experience</a>
+                <a href="Kunal_Shahani_Resume_2026_New.pdf" download class="hover:text-white transition-colors flex items-center gap-1">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                    Resume
+                </a>
+                <a href="#contact" class="px-5 py-2.5 rounded-full bg-accent text-white hover:bg-accentHover transition-all shadow-lg shadow-accent/20">Field a Query</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative pt-20 pb-32 overflow-hidden border-b border-white/5">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            <div class="lg:col-span-7 space-y-6 z-10">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cardBg border border-white/5 text-xs font-medium text-accent">
+                    <span class="w-2 h-2 rounded-full bg-accent"></span>
+                    Strategic Marketing & Communications Leader
+                </div>
+                <h1 class="text-5xl sm:text-6xl font-serif font-bold tracking-tight leading-[1.1] text-white">
+                    Building brands that <span class="italic text-accent">engage & inspire</span> talent.
+                </h1>
+                <p class="text-lg text-textMuted font-light leading-relaxed max-w-xl">
+                    9+ years of experience building high-impact employer brands, driving digital transformation, and delivering integrated campaigns across APAC markets. Certified Generative AI Strategist specializing in AI-powered content creation.
+                </p>
+                <div class="flex flex-wrap gap-4 pt-4">
+                    <a href="#contact" class="px-8 py-4 rounded-full bg-accent text-white font-medium hover:bg-accentHover transition-all shadow-xl shadow-accent/25 flex items-center gap-2">
+                        Field a Query
+                        <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </a>
+                    <a id="hero-download" href="Kunal_Shahani_Resume_2026_New.pdf" download class="px-8 py-4 rounded-full bg-cardBg border border-white/10 text-white font-medium hover:bg-white/5 transition-all flex items-center gap-2">
+                        <svg class="w-4.5 h-4.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                        Download Resume
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Professional Headshot -->
+            <div class="lg:col-span-5 relative flex justify-center">
+                <div class="relative w-80 h-[400px] bg-cardBg rounded-3xl border border-white/10 shadow-2xl overflow-hidden group">
+                    <img src="IMG_0150.jpg" alt="Kunal Shahani" class="w-full h-full object-cover object-top filter contrast-105" onerror="this.style.display='none'">
+                    <!-- Fallback if image missing -->
+                    <div class="absolute inset-0 -z-10 flex flex-col items-center justify-center text-white/30 text-sm p-6 text-center">
+                        <svg class="w-8 h-8 mb-2 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                        <span>Save IMG_0150.jpg in the same folder as this file</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Core Competencies -->
+    <section id="about" class="py-24 bg-cardBg/40 border-b border-white/5">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16 space-y-4">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-accent">Core Competencies</h2>
+                <h3 class="text-3xl font-serif font-bold text-white">Areas of Expertise</h3>
+            </div>
+            <div class="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
+                <span class="px-4 py-2 rounded-lg bg-darkBg border border-white/10 text-sm font-medium text-textMain">Employer Branding</span>
+                <span class="px-4 py-2 rounded-lg bg-darkBg border border-white/10 text-sm font-medium text-textMain">Talent Marketing</span>
+                <span class="px-4 py-2 rounded-lg bg-darkBg border border-white/10 text-sm font-medium text-textMain">Social Media Strategy</span>
+                <span class="px-4 py-2 rounded-lg bg-darkBg border border-white/10 text-sm font-medium text-textMain">Generative AI Strategy</span>
+                <span class="px-4 py-2 rounded-lg bg-darkBg border border-white/10 text-sm font-medium text-textMain">Change Management</span>
+                <span class="px-4 py-2 rounded-lg bg-darkBg border border-white/10 text-sm font-medium text-textMain">Internal & Corporate Communications</span>
+                <span class="px-4 py-2 rounded-lg bg-darkBg border border-white/10 text-sm font-medium text-textMain">Prompt Engineering</span>
+                <span class="px-4 py-2 rounded-lg bg-darkBg border border-white/10 text-sm font-medium text-textMain">Performance Marketing</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline -->
+    <section id="experience" class="py-24">
+        <div class="max-w-4xl mx-auto px-6 space-y-16">
+            <div class="space-y-4">
+                <h2 class="text-xs font-bold uppercase tracking-widest text-accent">Professional Experience</h2>
+                <h3 class="text-3xl font-serif font-bold text-white">Career Trajectory</h3>
+            </div>
+            
+            <div class="space-y-12">
+                <!-- Citrin Cooperman -->
+                <div class="relative pl-8 border-l border-white/10">
+                    <div class="absolute w-3 h-3 bg-accent rounded-full -left-[6.5px] top-2"></div>
+                    <div class="space-y-2 mb-4">
+                        <h4 class="text-2xl font-bold text-white">Citrin Cooperman India LLP</h4>
+                        <p class="text-accent font-medium">Talent Engagement and Employer Branding Specialist</p>
+                        <p class="text-xs text-textMuted uppercase tracking-wider">Pune, India | May 2025 - Present</p>
+                    </div>
+                    <ul class="space-y-3 text-textMuted text-sm leading-relaxed list-disc list-inside">
+                        <li>Leading end-to-end employer branding strategy and talent engagement initiatives, enhancing EVP and brand positioning across all digital touchpoints including LinkedIn and Glassdoor.</li>
+                        <li>Designed and implemented SOPs for social media, internal communications, and internal events, establishing scalable operational frameworks from the ground up.</li>
+                        <li>Developed a comprehensive intranet helpdesk featuring custom 3D iconography and structured resource portals to improve information accessibility for global teams.</li>
+                        <li>Leveraged Generative AI and high-resolution visual assets to maintain strict corporate identity standards while significantly scaling content production velocity.</li>
+                    </ul>
+                </div>
+
+                <!-- Amdocs -->
+                <div class="relative pl-8 border-l border-white/10">
+                    <div class="absolute w-3 h-3 bg-white/20 rounded-full -left-[6.5px] top-2"></div>
+                    <div class="space-y-2 mb-4">
+                        <h4 class="text-2xl font-bold text-white">Amdocs</h4>
+                        <p class="text-accent font-medium">Communications Specialist APAC (India and Philippines)</p>
+                        <p class="text-xs text-textMuted uppercase tracking-wider">Pune, India | May 2020 - Mar 2025</p>
+                    </div>
+                    <ul class="space-y-3 text-textMuted text-sm leading-relaxed list-disc list-inside">
+                        <li>Managed India and Philippines social media channels end-to-end, growing engagement through audience segmentation, data-driven content planning, and platform-native creative strategies.</li>
+                        <li>Core team member for corporate brand and employer brand launch initiatives, coordinating 10+ cross-functional stakeholders and ensuring message consistency.</li>
+                        <li>Led process restructuring initiatives, streamlining multi-level approval workflows and reducing campaign turnaround time by 30 percent.</li>
+                        <li>Scaled content output 3x using Generative AI tools while maintaining brand voice accuracy across diverse APAC audiences.</li>
+                    </ul>
+                </div>
+
+                <!-- Persistent Systems -->
+                <div class="relative pl-8 border-l border-white/10">
+                    <div class="absolute w-3 h-3 bg-white/20 rounded-full -left-[6.5px] top-2"></div>
+                    <div class="space-y-2 mb-4">
+                        <h4 class="text-2xl font-bold text-white">Persistent Systems</h4>
+                        <p class="text-accent font-medium">Marketing Associate - Performance Marketing</p>
+                        <p class="text-xs text-textMuted uppercase tracking-wider">Pune, India | May 2019 - Mar 2020</p>
+                    </div>
+                    <p class="text-textMuted text-sm leading-relaxed">
+                        Orchestrated multi-touch performance marketing campaigns with international stakeholders and leveraged Salesforce CRM to track lead generation metrics, build nurture journeys, and optimize conversion funnels.
+                    </p>
+                </div>
+                
+                <!-- NEW ADDITION: Link to Resume -->
+                <div class="pt-6 sm:pl-8">
+                    <a href="#hero-download" class="inline-flex items-center gap-2 text-accent hover:text-accentHover transition-colors font-medium border-b border-accent pb-1">
+                        To know more click download my resume
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 10l7-7m0 0l7 7m-7-7v18"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Direct-to-Email Inquiry Form -->
+    <section id="contact" class="py-24 bg-cardBg/40 border-t border-white/5">
+        <div class="max-w-3xl mx-auto px-6">
+            <div class="p-10 rounded-3xl bg-darkBg border border-white/10 shadow-2xl relative">
+                <div class="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1.5 rounded-full bg-accent text-xs font-bold uppercase tracking-wider text-white shadow-md">
+                    Connect
+                </div>
+                
+                <div class="text-center mt-4 mb-8">
+                    <h3 class="text-2xl font-serif font-bold text-white mb-2">Field a Query</h3>
+                    <p class="text-textMuted text-sm">Submit your message below. It will be sent directly to Kunal's inbox.</p>
+                </div>
+                
+                <!-- Live email capture via FormSubmit.co -->
+                <form action="https://formsubmit.co/kunal.shahani92@gmail.com" method="POST" class="space-y-5">
+                    <input type="hidden" name="_subject" value="New Website Query - Kunal Shahani Portfolio">
+                    <input type="hidden" name="_captcha" value="false">
+                    
+                    <div>
+                        <label class="block text-xs font-semibold text-textMuted uppercase mb-2 tracking-widest">Full Name</label>
+                        <input type="text" name="name" required class="w-full px-4 py-3.5 rounded-xl bg-cardBg border border-white/10 text-white placeholder-white/20 focus:outline-none focus:border-accent transition-colors" placeholder="Jane Doe">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-textMuted uppercase mb-2 tracking-widest">Email Address</label>
+                        <input type="email" name="email" required class="w-full px-4 py-3.5 rounded-xl bg-cardBg border border-white/10 text-white placeholder-white/20 focus:outline-none focus:border-accent transition-colors" placeholder="name@domain.com">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-textMuted uppercase mb-2 tracking-widest">Your Message</label>
+                        <textarea name="message" rows="5" required class="w-full px-4 py-3.5 rounded-xl bg-cardBg border border-white/10 text-white placeholder-white/20 focus:outline-none focus:border-accent transition-colors" placeholder="Describe your inquiry..."></textarea>
+                    </div>
+                    
+                    <button type="submit" class="w-full py-4 rounded-xl bg-accent text-white font-bold hover:bg-accentHover transition-all shadow-lg shadow-accent/20 cursor-pointer">
+                        Send Secure Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-white/5 text-center text-xs text-textMuted">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p>&copy; 2026 Kunal Shahani. All rights reserved.</p>
+            <div class="flex gap-4">
+                <a href="https://linkedin.com/in/kunalshahani" target="_blank" class="hover:text-accent transition-colors">LinkedIn</a>
+                <a href="mailto:kshahani002@gmail.com" class="hover:text-accent transition-colors">Email</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
